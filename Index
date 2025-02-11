@@ -1,0 +1,15 @@
+//cálculo das notas usando iteração
+let total = 0;
+const notas = [9, 8, 4, 10, 8, 10]
+for(let i=0; i<notas.length; i++) {
+    total += notas[i]
+}
+
+let media1 = total/notas.length
+
+//resultado
+if(media1 >= 7) {
+    console.log("APROVADO");
+} else {
+    console.log("REPROVADO");
+}
