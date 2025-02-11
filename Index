@@ -9,7 +9,7 @@ let media1 = total/notas.length
 
 //resultado
 if(media1 >= 7) {
-    console.log("APROVADO");
+    console.log("APROVADO com média: " + media1.toFixed(2));
 } else {
-    console.log("REPROVADO");
+    console.log("REPROVADO com média: " + media1.toFixed(2));
 }
